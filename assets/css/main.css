@@ -52,13 +52,17 @@ section, summary, time, mark, audio, video {
 		background-color: #226dbc;
 	}
 	*/
+
+tr:nth-child(odd) {
+	background-color: #18bfef;
+}
 	
 td {
 	
 	text-align: left;
 	}
 th {
-	
+	background-color: #FFFFFF;
 	text-align: right;
 	}
 	
@@ -85,6 +89,8 @@ blockquote, q {
 	}
 
 table {
+	border: none;
+	border-color: white;
 	border-collapse: collapse;
 	border-spacing: 0;
 }
@@ -219,7 +225,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family:  'Times New Roman', Times, serif, sans-serif;
 		font-weight: 900;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
