@@ -51,7 +51,7 @@ body {
 }
 .dark-mode {
 	background-color: black;
-	color: lightgreen;
+	
   }
 
 ol, ul {
@@ -109,6 +109,9 @@ input, select, textarea {
 
 		html, body {
 			min-width: 320px;
+			
+			
+				
 		}
 
 	}
@@ -125,8 +128,9 @@ input, select, textarea {
 		background-color: #1e252d;
 	}
 	.dark-mode {
-		background-color: white;
-		color: lightgreen;
+		color : lightgreen;
+		background-color: black;
+		
 	  }
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -172,6 +176,8 @@ input, select, textarea {
 
 	body {
 		color: #212931;
+		
+		
 		
 	}
 
@@ -3784,27 +3790,33 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #ffffff;
+		background-color: white;
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
 	}
-	#dark-mode {
-		background-color: black;
+	.dark-mode {
+		background-color: black !important;
 		color: lightgreen;
-	  }
 
-		#main > * {
+	  }
+	.dark-mode a:link{
+		color : blue;
+	}
+	  
+
+		/* #main > * {
 			padding: 4rem 4rem 2rem 4rem ;
 			border-top: solid 2px #eeeeee;
 			margin: 0;
-		}
+			background-color: black;
+		} */
 
-			#main > *:first-child {
+			/* #main > *:first-child {
 				border-top: 0;
-			}
+			} */
 
 		#main > footer {
 			text-align: center;
