@@ -73,6 +73,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+form {
+	overflow: hidden;
+  }
+input {
+	float: right;
+	clear: both;
+  }
 
 body {
 	-webkit-text-size-adjust: none;
